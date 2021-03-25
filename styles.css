@@ -1,0 +1,132 @@
+* {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: Courgette;
+  src: url("assets/courgette.ttf");
+}
+
+@font-face {
+  font-family: Lato;
+  src: url("assets/lato.ttf");
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("assets/roboto.ttf");
+}
+
+body {
+  padding: 20px;
+  background-image: url("assets/beanstalk.png");
+  font-family: Lato;
+  font-size: 14px;
+  color: #270e00;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Courgette;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 5px;
+  border: 1px solid darkgray;
+  border-radius: 3px;
+  margin: 1px;
+  background-color: white;
+  color: black;
+  font-family: Roboto;
+  font-size: 12px;
+}
+
+input:hover {
+  background-color: beige;
+}
+
+input:focus {
+  background-color: beige;
+}
+
+#divMain {
+  margin: auto;
+  max-width: 700px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+@media print {
+  .no-print,
+  .no-print * {
+    display: none !important;
+  }
+}
+
+#divTop {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("assets/topAccess.png");
+  
+}
+
+#divLogo {
+  min-width: 200px;
+  min-height: 140px;
+  max-width: 200px;
+  max-height: 140px;
+  background-image: url("assets/topLogo.png");
+  position: relative;
+}
+
+#divScope {
+  min-width: 330px;
+  min-height: 140px;
+  max-width: 330px;
+  max-height: 140px;
+  background-image: url("assets/topScope.png");
+  position: relative;
+}
+
+@media only screen and (max-width: 750px) {
+  #divScope {
+    display: none;
+  }
+}
+
+#divAccess {
+  min-width: 170px;
+  min-height: 140px;
+  max-width: 170px;
+  max-height: 140px;
+  background-image: url("assets/topAccess.png");
+}
+
+#bodyAccess {
+  padding: 30px 10px;
+}
+
+#divPage {
+  padding: 33px;
+}
+
+#divCopy {
+  padding: 45px;
+  font-size: 10px;
+  font-weight: bold;
+  background-color: lightgray;
+}
+
+#divCopy div {
+  text-align: center;
+}
