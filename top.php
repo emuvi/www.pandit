@@ -3,14 +3,14 @@
     <a href="/index.php" id="menuLogo"></a>
   </div>
   <div id="divScope">
-    <a href="/kalpa.php" id="menuKalpa"></a>
-    <a href="/yoga.php" id="menuYoga"></a>
-    <a href="/sunatya.php" id="menuSunatya"></a>
-    <a href="/suyuddha.php" id="menuSuyuddha"></a>
-    <a href="/vatra.php" id="menuVatra"></a>
-    <a href="/okshepa.php" id="menuOkshepa"></a>
-    <a href="/manadi.php" id="menuManadi"></a>
-    <a href="/bhukitsa.php" id="menuBhukitsa"></a>
+    <a href="/scope/kalpa.php" id="menuKalpa"></a>
+    <a href="/scope/yoga.php" id="menuYoga"></a>
+    <a href="/scope/sunatya.php" id="menuSunatya"></a>
+    <a href="/scope/suyuddha.php" id="menuSuyuddha"></a>
+    <a href="/scope/vatra.php" id="menuVatra"></a>
+    <a href="/scope/okshepa.php" id="menuOkshepa"></a>
+    <a href="/scope/manadi.php" id="menuManadi"></a>
+    <a href="/scope/bhukitsa.php" id="menuBhukitsa"></a>
   </div>
   <div id="divAccess">
     <div id="bodyAccess">
