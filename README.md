@@ -1,3 +1,3 @@
 # Pandit
 
-http://www.pandit.com.br is a website of the Hindu Culture with the associated services.
+<http://www.pandit.com.br> is a web-media of the Hindu Culture with the associated services.
